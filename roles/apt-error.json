@@ -1,0 +1,7 @@
+{
+  "name": "apt-error",
+  "description": "Causes an apt locked error",
+  "run_list": [
+    "recipe[errors::apt-locked-error]"
+  ]
+}
